@@ -1,5 +1,4 @@
-# D3 Tutorial - Notes (Yifeng Fan)
-
+# D3 Tutorial - Notes 
 - This note is based on a d3 tutorial on youtube called [d3Vienno](https://www.youtube.com/user/d3Vienno/videos).
 - The tutorial consists of 20 videos introducing select, style, bind, scale, group, transform , path and other contents of d3. 
 - Codes are provided with comments and screenshots are provided for a easier understanding of the code. You can comment/uncomment the code to see the change.
