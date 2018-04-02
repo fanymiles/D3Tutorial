@@ -32,7 +32,7 @@ d3.select("body")
     .text("Hi, what's up?");
 ```
 
-![](01.png)
+![](images/01.png)
 
 ### Chapter 3: Create SVG
 
