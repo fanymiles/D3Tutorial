@@ -381,7 +381,7 @@ var pack = d3.layout.pack()
 
 ![Horizontal Cluster Layout](images/16_cluster.png)
 
-![Pack Layout](16_pack.png)
+![Pack Layout](images/16_pack.png)
 
 ### Chapter 17 & 18: Histogram
 
