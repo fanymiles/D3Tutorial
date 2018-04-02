@@ -59,7 +59,7 @@ var line = canvas.append("line")
                 .attr("stroke-width", 2);
 ```
 
-![](03.png)
+![](images/03.png)
 
 ### Chapter 4: Bind data
 
@@ -78,7 +78,7 @@ var bars = canvas.selectAll("rect")
                         .attr("y", function(d, i) { return i*200; });
 ```
 
-![](05.png)
+![](images/05.png)
 
 ### Chapter 5: Scale length and color
 
@@ -107,7 +107,7 @@ var bars = canvas.selectAll("rect")
                         .attr("y", function(d, i) { return i*60; }); 
 ```
 
-![](06.png)
+![](images/06.png)
 
 ### Chapter 6: Group and axis
 
@@ -143,7 +143,7 @@ canvas.append("g")  // create a new group tag
 		.call(axis);
 ```
 
-![](07.png)
+![](images/07.png)
 
 ### Chapter 7: Enter, update and exit
 
@@ -181,7 +181,7 @@ var circles = canvas.selectAll("circle")
                     .attr("r", 25)
 ```
 
-![](08.png)
+![](images/08.png)
 
 ### Chapter 8: Transitions
 
@@ -268,7 +268,7 @@ group.selectAll("path")
         .attr("stroke-width", 10);
 ```
 
-![](11.png)
+![](images/11.png)
 
 ### Chapter 12: Arc
 
@@ -289,7 +289,7 @@ group.append("path")
 			.attr("d", arc);
 ```
 
-![](12.png)
+![](images/12.png)
 
 ### Chapter 13: Pie chart
 
@@ -325,7 +325,7 @@ arcs.append("text")
     .text(function (d) { return d.data; });
 ```
 
-![](13.png)
+![](images/13.png)
 
 ### Chapter 14 & 15: Tree layout
 
@@ -363,7 +363,7 @@ canvas.selectAll(".link")
 }
 ```
 
-![](14.png)
+![](images/14.png)
 
 ### Chapter 16: Cluster, pack layouts
 
@@ -379,7 +379,7 @@ var pack = d3.layout.pack()
 			.padding(10);
 ```
 
-![Horizontal Cluster Layout](16_cluster.png)
+![Horizontal Cluster Layout](images/16_cluster.png)
 
 ![Pack Layout](16_pack.png)
 
@@ -426,4 +426,4 @@ bars.append("rect")
 
 ```
 
-![](17.png)
+![](images/17.png)
